@@ -1,6 +1,6 @@
 
 
-# Takes sequence of tokens and formats them.
+# Takes sequence of tokens and formats them into an AST.
 class Parser:
     def __init__(self,tokens):
         self.tokens = tokens
